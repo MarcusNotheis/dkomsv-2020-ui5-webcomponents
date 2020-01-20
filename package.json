@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^8.0.3",
+    "@ui5/webcomponents": "^0.0.0-2db62badf",
     "@ui5/webcomponents-react": "0.7.0",
     "@ui5/webcomponents-react-charts": "^0.7.0",
     "react": "^16.12.0",

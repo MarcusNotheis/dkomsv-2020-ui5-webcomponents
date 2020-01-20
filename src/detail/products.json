@@ -1,0 +1,92 @@
+[
+  {
+    "productId": 0,
+    "guid": "562e9932-a6b2-4e7a-92cf-9706a79c8b35",
+    "price": 202.44,
+    "inStock": 26,
+    "name": "non",
+    "company": "DADABASE",
+    "sold": 534
+  },
+  {
+    "productId": 1,
+    "guid": "0433b76e-4301-4e09-905d-ca6f5dc5182e",
+    "price": 3678.5,
+    "inStock": 33,
+    "name": "deserunt",
+    "company": "SLOGANAUT",
+    "sold": 168
+  },
+  {
+    "productId": 2,
+    "guid": "1567192b-8107-4417-b47e-7cebc0a623e8",
+    "price": 958.55,
+    "inStock": 14,
+    "name": "incididunt",
+    "company": "MEDCOM",
+    "sold": 253
+  },
+  {
+    "productId": 3,
+    "guid": "da441d00-0c8c-4582-b3e6-b0181c2a494b",
+    "price": 861.77,
+    "inStock": 15,
+    "name": "irure",
+    "company": "QUOTEZART",
+    "sold": 367
+  },
+  {
+    "productId": 4,
+    "guid": "3423b8ef-f124-4930-bb4e-95ec5d27e509",
+    "price": 851.12,
+    "inStock": 12,
+    "name": "aliquip",
+    "company": "AUTOGRATE",
+    "sold": 279
+  },
+  {
+    "productId": 5,
+    "guid": "bb7ae02e-66f2-443f-b404-1c534712eaf1",
+    "price": 3052.42,
+    "inStock": 17,
+    "name": "sit",
+    "company": "NITRACYR",
+    "sold": 32
+  },
+  {
+    "productId": 6,
+    "guid": "ed31a8ed-56bf-465f-a417-b1efe7efca80",
+    "price": 2845.22,
+    "inStock": 11,
+    "name": "ad",
+    "company": "CYCLONICA",
+    "sold": 173
+  },
+  {
+    "productId": 7,
+    "guid": "110a2085-e6fe-4380-b0ed-66c178ea5f2b",
+    "price": 107.03,
+    "inStock": 34,
+    "name": "officia",
+    "company": "CALCU",
+    "sold": 699
+  },
+  {
+    "productId": 8,
+    "guid": "bd79a974-ad3b-4adf-a2b1-a0b697daf120",
+    "price": 380.94,
+    "inStock": 19,
+    "name": "voluptate",
+    "company": "NAVIR",
+    "sold": 895
+  },
+  {
+    "productId": 9,
+    "guid": "570bdaf1-1dcc-4b27-a5ed-2bf44400b6f6",
+    "price": 2212.08,
+    "inStock": 8,
+    "name": "reprehenderit",
+    "company": "REMOTION",
+    "sold": 497
+  }
+]

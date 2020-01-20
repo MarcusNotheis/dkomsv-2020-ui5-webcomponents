@@ -1,22 +1,16 @@
 import { ThemeProvider } from '@ui5/webcomponents-react/lib/ThemeProvider';
 import React from 'react';
-import './App.css';
-import logo from './logo.svg';
+import { HashRouter, Route } from 'react-router-dom'
+import StoreDetail from "./detail";
+import Home from "./home";
 
 function App() {
   return (
     <ThemeProvider withToastContainer>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-            Learn React
-          </a>
-        </header>
-      </div>
+      <HashRouter>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/stores/:storeId" component={StoreDetail}/>
+      </HashRouter>
     </ThemeProvider>
   );
 }

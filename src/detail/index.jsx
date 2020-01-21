@@ -10,19 +10,17 @@ import {
   ObjectPageSection,
   Title,
   TitleLevel
-} from "@ui5/webcomponents-react";
-import { BarChart, LineChart } from "@ui5/webcomponents-react-charts";
-import React, { useCallback } from "react";
+} from '@ui5/webcomponents-react';
+import { BarChart, LineChart } from '@ui5/webcomponents-react-charts';
+import React, { useCallback } from 'react';
 import productsChartData from './chartDataProducts';
 import visitorChartData from './chartDataVisitors';
 import products from './products';
-import storeFront from './storeFront.jpg'
-import masterdata from './storeMasterData'
+import storeFront from './storeFront.jpg';
+import masterdata from './storeMasterData';
 
 const StoreDetail = () => {
-
   const renderHeader = useCallback(() => {
-
     return (
       <Form>
         <FormItem labelText="Address">{masterdata.address}</FormItem>
@@ -34,39 +32,49 @@ const StoreDetail = () => {
 
   return (
     <div style={{ height: '100vh', width: '100vw' }}>
-      <ObjectPage title={masterdata.storeName}
-                  subTitle={masterdata.storeType}
-                  renderHeaderContent={renderHeader}
-                  image={<Avatar image={storeFront} shape={AvatarShape.Square} style={{ display: 'inline-flex' }}/>}>
+      <ObjectPage
+        title={masterdata.storeName}
+        subTitle={masterdata.storeType}
+        renderHeaderContent={renderHeader}
+        image={<Avatar image={storeFront} shape={AvatarShape.Square} style={{ display: 'inline-flex' }} />}
+      >
         <ObjectPageSection id="store-analytics" title="Store Analytics">
           <FlexBox>
             <FlexBox direction={FlexBoxDirection.Column} width="50%">
               <Title level={TitleLevel.H3}>Avg. Visitors per Hour</Title>
-              <LineChart datasets={visitorChartData}
-                         width={"100%"}
-                         labels={['8AM', '9AM', '10AM', '11AM', '12AM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM', '8PM']}/>
+              <LineChart
+                datasets={visitorChartData}
+                width={'100%'}
+                labels={['8AM', '9AM', '10AM', '11AM', '12AM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM', '8PM']}
+              />
             </FlexBox>
             <FlexBox direction={FlexBoxDirection.Column} width="50%">
               <Title level={TitleLevel.H3}>Top 5 Products</Title>
-              <BarChart datasets={productsChartData}
-                        width={"100%"}
-                        labels={['Super Desktop', 'Smart Mobile', 'Crystal Display', 'Power Charger', 'Hacker Keyboard']}/>
+              <BarChart
+                datasets={productsChartData}
+                width={'100%'}
+                labels={['Super Desktop', 'Smart Mobile', 'Crystal Display', 'Power Charger', 'Hacker Keyboard']}
+              />
             </FlexBox>
-
-
           </FlexBox>
-
         </ObjectPageSection>
         <ObjectPageSection id="product-overview" title="Product Overview">
-          <AnalyticalTable columns={[{ Header: 'Name', accessor: 'name' }, { Header: 'Price', accessor: 'price' }, {
-            Header: 'In Stock',
-            accessor: 'inStock'
-          }, { Header: 'Manufacturer', accessor: 'company' }]} data={products}/>
+          <AnalyticalTable
+            columns={[
+              { Header: 'Name', accessor: 'name' },
+              { Header: 'Price', accessor: 'price' },
+              {
+                Header: 'In Stock',
+                accessor: 'inStock'
+              },
+              { Header: 'Manufacturer', accessor: 'company' }
+            ]}
+            data={products}
+          />
         </ObjectPageSection>
       </ObjectPage>
     </div>
-  )
-
+  );
 };
 
 export default StoreDetail;

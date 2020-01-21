@@ -2,6 +2,7 @@
   "name": "dkomsv-2020-ui5-webcomponents",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://marcusnotheis.github.io/dkomsv-2020-ui5-webcomponents",
   "dependencies": {
     "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^9.3.2",
@@ -9,6 +10,7 @@
     "@ui5/webcomponents": "^0.0.0-2db62badf",
     "@ui5/webcomponents-react": "0.7.0",
     "@ui5/webcomponents-react-charts": "^0.7.0",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
@@ -17,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

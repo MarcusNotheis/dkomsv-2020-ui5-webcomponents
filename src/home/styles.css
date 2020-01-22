@@ -98,6 +98,9 @@ body,
 
 .profile-hcb-switch {
   width: 100%;
+  justify-content: space-between;
+  padding-right: .25rem;
+  box-sizing: border-box;
 }
 
 /* Semantic colors */

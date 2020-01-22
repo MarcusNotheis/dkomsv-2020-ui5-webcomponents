@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import "@ui5/webcomponents/dist/Card";
 import "@ui5/webcomponents/dist/Title";
@@ -34,7 +34,15 @@ addCustomCSS("ui5-card", `
   `);
 /* --------------- */
 
-const Home = () => {
+const Home = (props) => {
+  const storesListRef = React.createRef();
+
+  useEffect(() => {
+    storesListRef.current.addEventListener("itemPress", event => {
+      props.history.push(`/stores/${event.detail.item.getAttribute("data-store-id")}`);
+    });
+  }, []);
+
   return (
     <div className="app-content">
 
@@ -115,9 +123,9 @@ const Home = () => {
           status="6 of 6"
           class="ui5card ui5card-large">
           <div className="card-content">
-            <ui5-list separators="Inner" class="card-content-child">
-              {data.storesa.map(store =>
-                <ui5-li key={store.key} image={managerImg} description={store.description}>{store.title}</ui5-li>
+            <ui5-list separators="Inner" class="card-content-child" ref={storesListRef}>
+              {data.storesa.map((store, index) =>
+                <ui5-li data-store-id={index} key={store.key} image={managerImg} description={store.description}>{store.title}</ui5-li>
               )}
             </ui5-list>
             <ui5-list separators="Inner" class="card-content-child">

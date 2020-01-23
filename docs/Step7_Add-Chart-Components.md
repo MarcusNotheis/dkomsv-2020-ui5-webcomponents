@@ -2,7 +2,7 @@
 
 Our ObjectPage is now only showing some Store masterdata. Now, let's add some charts to get insights on how our store is running.
 
-1. Import the Chart Components in the Object Page.
+### 1. Import the Chart Components in the Object Page.
 
 There are already two (empty) chart components existing. So let's import these components in your `ObjetcPage` and use them as content for the first section:
 
@@ -26,7 +26,7 @@ const StoreDetail = () => {
 };
 ``` 
 
-2. Create the Visitors Chart
+### 2. Create the Visitors Chart
 
 In the visitors chart, we want to show the average visitors by hour over the last two weeks.
 Therefore we will use a [LineChart](https://sap.github.io/ui5-webcomponents-react/?path=/docs/charts-line-chart--default-story).
@@ -56,7 +56,7 @@ const VisitorsChart = () => {
 ```
 The `labels` array will be our x-axis while the `datasets` prop will be used as values for the y-axis.
 
-3. Create the Top Products Chart
+### 3. Create the Top Products Chart
 
 As a store manager, we are also interested which products are the bestsellers in our store.
 In order to visualize this information, we can make use of a [BarChart](https://sap.github.io/ui5-webcomponents-react/?path=/docs/charts-barchart--default-story).

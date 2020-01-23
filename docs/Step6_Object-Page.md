@@ -2,7 +2,7 @@
 
 Now, we want to show some more details on a store. Therefore, we will use the [ObjectPage Component](https://sap.github.io/ui5-webcomponents-react/?path=/docs/components-objectpage--render-demo).
 
-1. Import the `ObjectPage` and corresponding components
+### 1. Import the `ObjectPage` and corresponding components
 
 Open the `src/detail/index.jsx` file and add the following imports:
 
@@ -28,7 +28,7 @@ const StoreDetail = () => {
 };
 ```
 
-2. Add Header Content to your ObjectPage
+### 2. Add Header Content to your ObjectPage
 
 Let's add some more metadata about our Smart Store to the `ObjectPage` header.
 In order to do that, we'll create a helper function **outside** of our `StoreDetail` component which will return the corresponding JSX Content.

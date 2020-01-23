@@ -46,4 +46,4 @@ const AppBar = () => {
 }
 ```
 
-### [Step #2 - The Home Component](./Step2_The_Home_Component.md)
+### [Step #2 - Home](./Step2_Home.md)

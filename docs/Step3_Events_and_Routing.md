@@ -50,3 +50,5 @@ In this page we will navigate to a details of a store defined in the next steps.
 
     return (
   ```
+
+### [Step #4 - Profile](./Step4_Profile.md)

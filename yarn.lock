@@ -1612,17 +1612,6 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@ui5/webcomponents-base@0.0.0-2db62badf":
-  version "0.0.0-2db62badf"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-base/-/webcomponents-base-0.0.0-2db62badf.tgz#6620d40d895b6e535206937b6217f3e0bf4a9679"
-  integrity sha512-VILiFIMoxOwOnt/4B28i4HgaGhhbYooshSReSfUepL43r3AlEFm15RK0h7gKE2mdMPdmS7HvuJwmg6pRdHnaXA==
-  dependencies:
-    "@ui5/webcomponents-utils" "0.0.0-2db62badf"
-    css-vars-ponyfill "^2.1.2"
-    lit-html "^1.0.0"
-    regenerator-runtime "0.12.1"
-    url-search-params-polyfill "^5.0.0"
-
 "@ui5/webcomponents-base@0.18.0":
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-base/-/webcomponents-base-0.18.0.tgz#e4da67a1045f729e9d6e92fcc7b86e34e3593e38"
@@ -1650,13 +1639,6 @@
     "@ui5/webcomponents-icons" "1.0.0-rc.5"
     "@ui5/webcomponents-theme-base" "1.0.0-rc.5"
 
-"@ui5/webcomponents-icons@0.0.0-2db62badf":
-  version "0.0.0-2db62badf"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons/-/webcomponents-icons-0.0.0-2db62badf.tgz#89e2a515741bfd87d29f5ac4405cae84efae3772"
-  integrity sha512-GanxsudbEqbzIc9qRZhRjdoyZtWY7NDXsL7+8TXuDAjACS4z6IJGKmAM7DTbdwQXfnS1fiZvQfmq15y3h6p+Dg==
-  dependencies:
-    "@ui5/webcomponents-base" "0.0.0-2db62badf"
-
 "@ui5/webcomponents-icons@1.0.0-rc.5":
   version "1.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons/-/webcomponents-icons-1.0.0-rc.5.tgz#efd71be6eeae390261908f7b456faee2f4a17db4"
@@ -1672,10 +1654,10 @@
     core-js "3.6.4"
     resize-observer-polyfill "^1.5.1"
 
-"@ui5/webcomponents-react-charts@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react-charts/-/webcomponents-react-charts-0.7.0.tgz#b86db5121c3bf876ecde5dfb51a50b9b1bc1d137"
-  integrity sha512-DVeajbGYrEZR3aQhg7DXq3vk/HzbLdSBnql2NoiQgzKd1BN3ZM9fkBIsKAhSD0w8hA/tavaq2rHN3OGV1dCbDg==
+"@ui5/webcomponents-react-charts@^0.7.2-dev.0":
+  version "0.7.2-dev.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react-charts/-/webcomponents-react-charts-0.7.2-dev.0.tgz#0f07a160b21bd9bdd98244e9dc93a6cd619d271f"
+  integrity sha512-JIDhS7nioc0SAL0PWXnFNoHmCAWsiaeVbGzS2UacEGucoCLfsdldH8lJN15nnhb4l5eiPDFvflxBtMwDElPhOw==
   dependencies:
     chart.js "^2.9.3"
     chartjs-plugin-datalabels "^0.7.0"
@@ -1684,10 +1666,10 @@
     react-chartjs-2 "^2.8.0"
     react-content-loader "^4.3.4"
 
-"@ui5/webcomponents-react@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react/-/webcomponents-react-0.7.0.tgz#229ecaf10437c432f24d32a3c083abe820bfcabf"
-  integrity sha512-FtmpcixGJYB+j816KOTRDEtGQi7sTkcyfMCAtgLF2ug5nPfL0hGjKuciyrHGkiyUaOu2M8tUbX+xQq8RrfrYYQ==
+"@ui5/webcomponents-react@0.7.2-dev.10":
+  version "0.7.2-dev.10"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react/-/webcomponents-react-0.7.2-dev.10.tgz#21772a737a6bbbd96c8e574ea5517149eec90e54"
+  integrity sha512-jpI0+8gozw/jwY4jS5teVBWS7KMHTLqREMQsbT+tHcUY11IsN7GnpUR6t4Cn4pmZzaPQPbOw1SXUK1DOFW/FbQ==
   dependencies:
     "@ui5/webcomponents" "1.0.0-rc.5"
     "@ui5/webcomponents-fiori" "1.0.0-rc.5"
@@ -1700,22 +1682,10 @@
     react-toastify "^5.5.0"
     react-window "^1.8.5"
 
-"@ui5/webcomponents-theme-base@0.0.0-2db62badf":
-  version "0.0.0-2db62badf"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-theme-base/-/webcomponents-theme-base-0.0.0-2db62badf.tgz#758471357c057210187c0157dafad7b1d348e2b6"
-  integrity sha512-B/7qO2LEwj3T72qSV1ytXDWO0I1oxT+Ac+lbuYhA/KpixiT4gBFFiE4Jc1hcLlC4ZqeMmJ4aIcbMrp3owAUudg==
-  dependencies:
-    "@ui5/webcomponents-base" "0.0.0-2db62badf"
-
 "@ui5/webcomponents-theme-base@1.0.0-rc.5":
   version "1.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-theme-base/-/webcomponents-theme-base-1.0.0-rc.5.tgz#4c786d25c4e24c54b1a3159461a7435185b330ce"
   integrity sha512-jrdu64nrw3d7ms/AZrLWe63FU0vL5zm0TuIILRRrGqAwux+xw8xNMrUyTh3G/GEWO2ay6+I4b6HHy+NVZybI+g==
-
-"@ui5/webcomponents-utils@0.0.0-2db62badf":
-  version "0.0.0-2db62badf"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-utils/-/webcomponents-utils-0.0.0-2db62badf.tgz#20c5b940acde78e77cf7a9ab3852921ddaac08f4"
-  integrity sha512-6l3VsYVIdvmD6BNlPLRwV+JRo8KLoA0Qj8B1XlqtgWTBpmzvu/dnAW42XVe5dA3PBX/hv2CFSnibd91adULT4A==
 
 "@ui5/webcomponents@1.0.0-rc.5":
   version "1.0.0-rc.5"
@@ -1726,16 +1696,6 @@
     "@ui5/webcomponents-core" "0.18.0"
     "@ui5/webcomponents-icons" "1.0.0-rc.5"
     "@ui5/webcomponents-theme-base" "1.0.0-rc.5"
-
-"@ui5/webcomponents@^0.0.0-2db62badf":
-  version "0.0.0-2db62badf"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents/-/webcomponents-0.0.0-2db62badf.tgz#3b099668016cd240ebeb9e8324ad0a18c2ebe041"
-  integrity sha512-D7T2NL4Bu9rFZclIahmGepFvmSfIjYE2hDDItum2Dovzf5qvcu8AmwJ4wusAFk5rznakDkZwozmIrlW0ugyeMw==
-  dependencies:
-    "@ui5/webcomponents-base" "0.0.0-2db62badf"
-    "@ui5/webcomponents-icons" "0.0.0-2db62badf"
-    "@ui5/webcomponents-theme-base" "0.0.0-2db62badf"
-    "@ui5/webcomponents-utils" "0.0.0-2db62badf"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"

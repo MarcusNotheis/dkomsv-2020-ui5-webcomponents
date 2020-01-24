@@ -1666,10 +1666,10 @@
     react-chartjs-2 "^2.8.0"
     react-content-loader "^4.3.4"
 
-"@ui5/webcomponents-react@0.7.3-dev.1":
-  version "0.7.3-dev.1"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react/-/webcomponents-react-0.7.3-dev.1.tgz#816124b00ca67bc84a1eb27270c74cd2b89f5602"
-  integrity sha512-PSxo69JSmBKvxWTLp4JSxKtjG6FhQddr5g7iLkZPMP63oVUBUBIrRv4cEZWrMnKxgVTlAbLK6pU2dMEXGYzdNg==
+"@ui5/webcomponents-react@0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react/-/webcomponents-react-0.7.3.tgz#a753676ca45292f25ea636f5341bf4590980f500"
+  integrity sha512-oATHlSvRnU8oMSVggDdUvZgXN/xGzQiCjTT5DWSKSftbiggkvBNjxXPRbNQgN4TUrBAE0k6iMpBtwQqGXJLgLg==
   dependencies:
     "@ui5/webcomponents" "1.0.0-rc.5"
     "@ui5/webcomponents-fiori" "1.0.0-rc.5"

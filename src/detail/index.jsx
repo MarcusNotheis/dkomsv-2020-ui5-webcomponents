@@ -9,8 +9,8 @@ import ProductsTable from './table';
 const renderHeader = () => {
   return (
     <Form>
-      <FormGroup title="Store Data">
-        <FormItem labelText="Address" style={{ width: '18rem' }}>
+      <FormGroup title="Store Data" style={{ width: '18rem' }}>
+        <FormItem labelText="Address">
           <Text>{masterdata.address}</Text>
         </FormItem>
         <FormItem labelText="Store Manager">
@@ -20,7 +20,7 @@ const renderHeader = () => {
           <Text>{masterdata.revenue}</Text>
         </FormItem>
       </FormGroup>
-      <FormGroup title="Opening Hours">
+      <FormGroup title="Opening Hours" style={{ width: '250px' }}>
         {Object.entries(masterdata.openingHours).map(([day, hours]) => (
           <FormItem labelText={day} key={day}>
             <Text>{hours}</Text>

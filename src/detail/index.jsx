@@ -2,6 +2,7 @@ import { FlexBox, Form, FormGroup, FormItem, ObjectPage, ObjectPageSection, Text
 import React from 'react';
 import ProductsCharts from './charts/products';
 import VisitorsChart from './charts/visitors';
+import Employees from './employees';
 import storeFront from './storeFront.jpg';
 import masterdata from './storeMasterData';
 import ProductsTable from './table';
@@ -48,6 +49,9 @@ const StoreDetail = () => {
       </ObjectPageSection>
       <ObjectPageSection id="product-overview" title="Product Overview">
         <ProductsTable />
+      </ObjectPageSection>
+      <ObjectPageSection id="employees" title="Store Staff">
+        <Employees />
       </ObjectPageSection>
     </ObjectPage>
   );

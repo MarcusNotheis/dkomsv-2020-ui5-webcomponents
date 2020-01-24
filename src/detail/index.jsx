@@ -1,10 +1,10 @@
-import { Form, FormItem, ObjectPage, ObjectPageSection, Text } from '@ui5/webcomponents-react';
+import { Form, FormItem, ObjectPage, ObjectPageSection, Text, FlexBox } from '@ui5/webcomponents-react';
 import React from 'react';
 import ProductsCharts from './charts/products';
 import VisitorsChart from './charts/visitors';
 import storeFront from './storeFront.jpg';
 import masterdata from './storeMasterData';
-import ProductsTable from './table/ProductsTable';
+import ProductsTable from './table';
 
 const renderHeader = () => {
   return (
@@ -45,8 +45,10 @@ const StoreDetail = () => {
         alwaysShowContentHeader
       >
         <ObjectPageSection id="store-analytics" title="Store Analytics">
-          <VisitorsChart />
-          <ProductsCharts />
+          <FlexBox>
+            <VisitorsChart />
+            <ProductsCharts />
+          </FlexBox>
         </ObjectPageSection>
         <ObjectPageSection id="product-overview" title="Product Overview">
           <ProductsTable />

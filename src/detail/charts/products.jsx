@@ -10,7 +10,7 @@ const ProductsChart = () => {
       <BarChart
         datasets={chartData}
         width={'100%'}
-        labels={['Super Desktop', 'Smart Mobile', 'Crystal Display', 'Power Charger', 'Hacker Keyboard']}
+        labels={['Astro Phone 6', 'Ergonomic Keyboard', 'Copymaster', 'Flat Watch HD32', 'Gaming Monster Pro']}
       />
     </FlexBox>
   );

@@ -8,11 +8,12 @@ const currencyFormatter = new Intl.NumberFormat('en-US', {
 });
 
 const tableColumns = [
-  { Header: 'Product Name', accessor: 'name' },
-  { Header: 'Manufacturer', accessor: 'company' },
+  { Header: 'Product Name', accessor: 'Name' },
+  { Header: 'Manufacturer', accessor: 'SupplierName' },
+  { Header: 'Category', accessor: 'MainCategory' },
   {
     Header: 'Price',
-    accessor: 'price',
+    accessor: 'Price',
     hAlign: TextAlign.End,
     Cell: ({ cell: { value } }) => {
       return <Text>{currencyFormatter.format(value)}</Text>;
@@ -20,7 +21,7 @@ const tableColumns = [
   },
   {
     Header: 'In Stock',
-    accessor: 'inStock',
+    accessor: 'InStock',
     hAlign: TextAlign.End,
     Cell: ({ cell: { value } }) => {
       let state = ValueState.Success;

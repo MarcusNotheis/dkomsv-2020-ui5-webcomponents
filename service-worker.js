@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dkomsv-2020-ui5-webcomponents/precache-manifest.44f0c35edf1c0531f65edc8a606d1b36.js"
+  "/dkomsv-2020-ui5-webcomponents/precache-manifest.4b46c5d84af87a61f5f356c575237d18.js"
 );
 
 self.addEventListener('message', (event) => {

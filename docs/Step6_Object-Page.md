@@ -34,21 +34,21 @@ Let's add some more metadata about our Smart Store to the `ObjectPage` header.
 In order to do that, we'll create a helper function **outside** of our `StoreDetail` component which will return the corresponding JSX Content.
 You could also define it inside of the `StoreDetail` component and use helper methods like `useCallback`, but in our case it's easier to define it outside.
 
-We will make use of the `Form` component, so you'll need to add `Form, FormItem, Text` to your imports from `@ui5/webcomponents-react`.
+We will make use of the `Form` component, so you'll need to add `Form, FormItem, FormGroup, Text` to your imports from `@ui5/webcomponents-react`.
 All required values are already present in the masterdata file.
 In addition to the header content, we'll also show an image of the store, so let's add the image import as well.
 
 ```jsx harmony
 import React from 'react';
 ... // other imports
-import { ObjectPage, ObjectPageSection, Form, FormItem, Text } from '@ui5/webcomponents-react';
+import { ObjectPage, ObjectPageSection, Form, FormItem, FormGroup, Text } from '@ui5/webcomponents-react';
 import storeFront from './storeFront.jpg';
 
 const renderHeader = () => {
   return (
-    <>
-      <Form>
-        <FormItem labelText="Address">
+    <Form>
+      <FormGroup title="Store Data">
+        <FormItem labelText="Address" style={{width: '18rem'}}>
           <Text>{masterdata.address}</Text>
         </FormItem>
         <FormItem labelText="Store Manager">
@@ -57,18 +57,15 @@ const renderHeader = () => {
         <FormItem labelText="Revenue">
           <Text>{masterdata.revenue}</Text>
         </FormItem>
-      </Form>
-      <div>
-        <Text>Opening Hours</Text>
-        <Form>
-          {Object.entries(masterdata.openingHours).map(([day, hours]) => (
-            <FormItem labelText={day} key={day}>
-              <Text>{hours}</Text>
-            </FormItem>
-          ))}
-        </Form>
-      </div>
-    </>
+      </FormGroup>
+      <FormGroup title="Opening Hours">
+        {Object.entries(masterdata.openingHours).map(([day, hours]) => (
+          <FormItem labelText={day} key={day}>
+            <Text>{hours}</Text>
+          </FormItem>
+        ))}
+      </FormGroup>
+    </Form>
   );
 };
 ```

@@ -1654,10 +1654,10 @@
     core-js "3.6.4"
     resize-observer-polyfill "^1.5.1"
 
-"@ui5/webcomponents-react-charts@^0.7.2-dev.0":
-  version "0.7.2-dev.0"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react-charts/-/webcomponents-react-charts-0.7.2-dev.0.tgz#0f07a160b21bd9bdd98244e9dc93a6cd619d271f"
-  integrity sha512-JIDhS7nioc0SAL0PWXnFNoHmCAWsiaeVbGzS2UacEGucoCLfsdldH8lJN15nnhb4l5eiPDFvflxBtMwDElPhOw==
+"@ui5/webcomponents-react-charts@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react-charts/-/webcomponents-react-charts-0.7.2.tgz#21843215c2c6018244e5f0eae7246971d93d0a90"
+  integrity sha512-mj9tXjvn2FT7P/ncz9aXlQCenVLgeVYtya7DPHxpow2uIfPfb6QLrWCWz1wjdByACtzlyfn+IuJFsrdZS63l1A==
   dependencies:
     chart.js "^2.9.3"
     chartjs-plugin-datalabels "^0.7.0"
@@ -1666,10 +1666,10 @@
     react-chartjs-2 "^2.8.0"
     react-content-loader "^4.3.4"
 
-"@ui5/webcomponents-react@0.7.2-dev.10":
-  version "0.7.2-dev.10"
-  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react/-/webcomponents-react-0.7.2-dev.10.tgz#21772a737a6bbbd96c8e574ea5517149eec90e54"
-  integrity sha512-jpI0+8gozw/jwY4jS5teVBWS7KMHTLqREMQsbT+tHcUY11IsN7GnpUR6t4Cn4pmZzaPQPbOw1SXUK1DOFW/FbQ==
+"@ui5/webcomponents-react@0.7.3-dev.1":
+  version "0.7.3-dev.1"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-react/-/webcomponents-react-0.7.3-dev.1.tgz#816124b00ca67bc84a1eb27270c74cd2b89f5602"
+  integrity sha512-PSxo69JSmBKvxWTLp4JSxKtjG6FhQddr5g7iLkZPMP63oVUBUBIrRv4cEZWrMnKxgVTlAbLK6pU2dMEXGYzdNg==
   dependencies:
     "@ui5/webcomponents" "1.0.0-rc.5"
     "@ui5/webcomponents-fiori" "1.0.0-rc.5"

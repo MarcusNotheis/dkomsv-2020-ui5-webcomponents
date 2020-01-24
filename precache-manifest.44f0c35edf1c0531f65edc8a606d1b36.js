@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa9f7c17cee7d680ccfdaa856825650e",
+    "revision": "e7c9abccfa96e2fa1eadc4b3bebff1b2",
     "url": "/dkomsv-2020-ui5-webcomponents/index.html"
   },
   {
-    "revision": "09c9b02ba20a575be9e1",
+    "revision": "18939dd8710589445b17",
     "url": "/dkomsv-2020-ui5-webcomponents/static/css/2.c829125e.chunk.css"
   },
   {
-    "revision": "4d562d04e49000f20cc3",
+    "revision": "d8a74ff3f8e2e73c49e5",
     "url": "/dkomsv-2020-ui5-webcomponents/static/css/main.c5c845fa.chunk.css"
   },
   {
-    "revision": "09c9b02ba20a575be9e1",
-    "url": "/dkomsv-2020-ui5-webcomponents/static/js/2.dd877bb7.chunk.js"
+    "revision": "18939dd8710589445b17",
+    "url": "/dkomsv-2020-ui5-webcomponents/static/js/2.dc37e1e6.chunk.js"
   },
   {
     "revision": "4ef09110d66bd9bb43230ec0fb8e3731",
-    "url": "/dkomsv-2020-ui5-webcomponents/static/js/2.dd877bb7.chunk.js.LICENSE"
+    "url": "/dkomsv-2020-ui5-webcomponents/static/js/2.dc37e1e6.chunk.js.LICENSE"
   },
   {
-    "revision": "4d562d04e49000f20cc3",
-    "url": "/dkomsv-2020-ui5-webcomponents/static/js/main.d5dd74cd.chunk.js"
+    "revision": "d8a74ff3f8e2e73c49e5",
+    "url": "/dkomsv-2020-ui5-webcomponents/static/js/main.cdf10ea4.chunk.js"
   },
   {
     "revision": "5d02c86b9f624709a140",

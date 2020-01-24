@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a4bd23267201b0bee2c9f7ba4383b45",
+    "revision": "a2768bd8a93aba1d9a96dcd178c34b6d",
     "url": "/dkomsv-2020-ui5-webcomponents/index.html"
   },
   {

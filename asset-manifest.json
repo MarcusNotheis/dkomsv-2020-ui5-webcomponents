@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.56f0c708.chunk.js",
-    "main.js.map": "/static/js/main.56f0c708.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9105c918.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9105c918.js.map",
-    "static/css/2.c829125e.chunk.css": "/static/css/2.c829125e.chunk.css",
-    "static/js/2.5d8c90f5.chunk.js": "/static/js/2.5d8c90f5.chunk.js",
-    "static/js/2.5d8c90f5.chunk.js.map": "/static/js/2.5d8c90f5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4919ac1877c2d4c9257396364cfd58b7.js": "/precache-manifest.4919ac1877c2d4c9257396364cfd58b7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.c829125e.chunk.css.map": "/static/css/2.c829125e.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.5d8c90f5.chunk.js.LICENSE": "/static/js/2.5d8c90f5.chunk.js.LICENSE",
-    "static/media/storeFront.jpg": "/static/media/storeFront.acb65a9e.jpg"
+    "main.css": "/dkomsv-2020-ui5-webcomponents/static/css/main.c5c845fa.chunk.css",
+    "main.js": "/dkomsv-2020-ui5-webcomponents/static/js/main.d5dd74cd.chunk.js",
+    "main.js.map": "/dkomsv-2020-ui5-webcomponents/static/js/main.d5dd74cd.chunk.js.map",
+    "runtime-main.js": "/dkomsv-2020-ui5-webcomponents/static/js/runtime-main.a8e7a734.js",
+    "runtime-main.js.map": "/dkomsv-2020-ui5-webcomponents/static/js/runtime-main.a8e7a734.js.map",
+    "static/css/2.c829125e.chunk.css": "/dkomsv-2020-ui5-webcomponents/static/css/2.c829125e.chunk.css",
+    "static/js/2.dd877bb7.chunk.js": "/dkomsv-2020-ui5-webcomponents/static/js/2.dd877bb7.chunk.js",
+    "static/js/2.dd877bb7.chunk.js.map": "/dkomsv-2020-ui5-webcomponents/static/js/2.dd877bb7.chunk.js.map",
+    "index.html": "/dkomsv-2020-ui5-webcomponents/index.html",
+    "precache-manifest.9579eb3f5b4582a00a206eb392caf554.js": "/dkomsv-2020-ui5-webcomponents/precache-manifest.9579eb3f5b4582a00a206eb392caf554.js",
+    "service-worker.js": "/dkomsv-2020-ui5-webcomponents/service-worker.js",
+    "static/css/2.c829125e.chunk.css.map": "/dkomsv-2020-ui5-webcomponents/static/css/2.c829125e.chunk.css.map",
+    "static/css/main.c5c845fa.chunk.css.map": "/dkomsv-2020-ui5-webcomponents/static/css/main.c5c845fa.chunk.css.map",
+    "static/js/2.dd877bb7.chunk.js.LICENSE": "/dkomsv-2020-ui5-webcomponents/static/js/2.dd877bb7.chunk.js.LICENSE",
+    "static/media/logo.png": "/dkomsv-2020-ui5-webcomponents/static/media/logo.60a8874b.png",
+    "static/media/profile.png": "/dkomsv-2020-ui5-webcomponents/static/media/profile.c5319308.png",
+    "static/media/storeFront.jpg": "/dkomsv-2020-ui5-webcomponents/static/media/storeFront.acb65a9e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9105c918.js",
+    "static/js/runtime-main.a8e7a734.js",
     "static/css/2.c829125e.chunk.css",
-    "static/js/2.5d8c90f5.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.56f0c708.chunk.js"
+    "static/js/2.dd877bb7.chunk.js",
+    "static/css/main.c5c845fa.chunk.css",
+    "static/js/main.d5dd74cd.chunk.js"
   ]
 }

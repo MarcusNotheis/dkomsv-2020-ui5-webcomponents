@@ -4,6 +4,7 @@ Our admin is able to change the look and feel of our application. For example he
 
 1. In order to change the theme in your application that is running UI5 Web Components you need to import a few modules. Each package has its own CSS properties. `fiori 3` styles are imported by default. In order to load the other supported themes such as `belize`, `belize hcb`, `fiori 3 dark`, you need import specific modules for each library.
 
+`appbar/index.jsx`
 ```js
 // imports CSS from the main package
 import "@ui5/webcomponents/dist/json-imports/Themes"

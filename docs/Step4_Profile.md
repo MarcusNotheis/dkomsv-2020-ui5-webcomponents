@@ -2,7 +2,7 @@
 
 What is an admin UI without a profile area? We will create one for our smart store manager and let him change the application theming with one click!
 
-1. We will enhance our app bar for this purpose and we will add a `ui5-popover` that opens upon clicking on the profile button of the `ui5-shellbar`. 
+1. We will enhance our app bar (`appbar/index.jsx`) for this purpose and we will add a `ui5-popover` that opens upon clicking on the profile button of the `ui5-shellbar`. 
 
   - First of all we render a `ui5-popover` in our view. As the Popover is displayed only when it is open and it is position absolutely, we place it below the `ui5-shellbar`.
 
@@ -108,3 +108,15 @@ What is an admin UI without a profile area? We will create one for our smart sto
       </div>
     </ui5-popover>
 ```
+
+3. As you can see again some icons are missing. We need to import them similar to what we did in the last step.
+
+```js
+  import "@ui5/webcomponents-icons/dist/icons/settings";
+  import "@ui5/webcomponents-icons/dist/icons/sys-help";
+  import "@ui5/webcomponents-icons/dist/icons/log";
+  import "@ui5/webcomponents-icons/dist/icons/palette";
+  import "@ui5/webcomponents-icons/dist/icons/desktop-mobile";
+```
+
+### [Step #5 - Theme and Compact Switch](./Step5_Theme_Compact_Switch.md)
